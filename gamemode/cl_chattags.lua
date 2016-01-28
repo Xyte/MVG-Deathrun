@@ -17,7 +17,8 @@ local tags =
 {"Server Awesome", "[Conner's Pet] ", Color(227,7,255), false },
 {"Server VIP", "[VIP] ", Color(255,69,0), true },
 {"Server Squeaker", "[Squeaker] ", Color(10,25,255), true },
-{"Server Nameless", "[Sexy] ", Color(218,112,214), false },                
+{"Server Nameless", "[Sexy] ", Color(218,112,214), false },
+{"Beta Tester", "[Tester]", Color(255,243,0), false }
 }
 
 local function findchattagtable(tag) -- returns a table from tags based on the input.
