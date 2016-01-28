@@ -4,7 +4,6 @@
 		Please do not modifiy any code below.
 
 		Credits:
-		AC² - Main code
 		BlackVoid - Help with vgui.RegisterTable and his deathrun scoreboard
 		The internet - Images
 --]]
