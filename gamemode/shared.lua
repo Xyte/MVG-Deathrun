@@ -58,7 +58,7 @@ function meta:Alive()
 	return self:OldAlive()
 end
 
--- Thanks BlackAwps!
+-- This is some sick shit. Keep it.
 function string.FormattedTime( seconds, Format )
 	if not seconds then seconds = 0 end
 	local hours = math.floor(seconds / 3600)
