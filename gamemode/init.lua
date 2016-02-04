@@ -592,7 +592,7 @@ function GM:KeyRelease( ply, key )
 
 end
 
--- I used BKU's keypress code as reference, credit to him.
+-- Stupid ass KeyPress
 
 function GM:KeyPress( ply, key )
 
@@ -695,12 +695,12 @@ end)
 function GM:IsSpawnpointSuitable()
 	return true
 end
-
-hook.Add("PlayerSay", "RestartTime", function(ply, text, pub)
+--Forum command
+hook.Add("PlayerSay", "RestartTime", function(ply, text, pub) 
 		if string.sub(text, 1, 1) == "1" or string.sub(text, 1, 1) == "!" or string.sub(text, 1, 1) == "/" then
 			text = string.lower(text)
 		if (string.sub(text, 2, 6) == "forum") then
-			ply:SendLua([[gui.OpenURL("http://www.metaversegaming.com/")]])
+			ply:SendLua([[gui.OpenURL("http://www.metaversegaming.com/index.php")]])
 			return(false)
 		end
 	end
