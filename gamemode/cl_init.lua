@@ -1,3 +1,4 @@
+--Hello from the other side!
 if CLIENT then 
 
 	include( "shared.lua" ) 
@@ -584,7 +585,7 @@ function GM:PreDrawHalos()
 	local num = TimedSin( 0.7, 4, 2, 0 )
 	halo.Add( { ent }, ent:GetColor(), num, num, 1, true, false )
 end
-
+--Third person view
 CreateClientConVar("deathrun_thirdperson", 0, true, false)
 
 local keydown
