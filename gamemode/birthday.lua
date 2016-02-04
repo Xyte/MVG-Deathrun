@@ -4,7 +4,9 @@
 
 -- High heels on a pretty feet.
 
+-- Hello? It's me
 
+-- Too many song lyrics not going to lie
 
 -- Store everything in a table
 
@@ -176,7 +178,7 @@ function birthday.ShowCard()
 
 		draw.SimpleText("MVG wishes you a", "balloons", (panel:GetWide() / 2), (panel:GetTall() - 125), _col, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 
-		draw.SimpleText("happy birthday", "balloons", (panel:GetWide()  / 2), (panel:GetTall() - 50), _col, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+		draw.SimpleText("happy birthday!", "balloons", (panel:GetWide()  / 2), (panel:GetTall() - 50), _col, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 
 	end
 
