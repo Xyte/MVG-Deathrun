@@ -5,7 +5,7 @@ hook.Add( "PlayerInitalSpawn", "SetPlayerMode", function(ply)
 	ply.InPlacementMode = false
 end )
 
-concommand.Add( "dr_placement_mode", function( ply )
+concommand.Add( "dr_spawnpoint", function( ply )
 	if not ply:IsSuperAdmin() then 
 		return
 	end
